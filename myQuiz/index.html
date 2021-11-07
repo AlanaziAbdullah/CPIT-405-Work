@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <section class="questions">
+      <!-- header of the Quiz -->
+      <header>
+        <div class="title">My Quiz</div>
+
+        <div class="timer">
+          <div class="timer-text">Time Left:</div>
+          <div class="timer-sec"> <span id="seconds">30</span> </div>
+        </div>
+      </header>
+
+      <!-- question 1 -->
+      <div class="question-box">
+        <div class="q-text">
+          <span>What is the rarest blood type?</span>
+        </div>
+
+        <div class="options-list">
+          <label>
+            <div class="option" id="answer1">
+              <input type="radio" name="q-1" id="correct1" />
+              <span class="option-text">AB-Negative</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong1">
+              <input type="radio" name="q-1" />
+              <span class="option-text">A-Negative</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong2">
+              <input type="radio" name="q-1" />
+              <span class="option-text">AB-Plus</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong3">
+              <input type="radio" name="q-1" />
+              <span class="option-text">O-Negative</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- question 2 -->
+      <div class="question-box">
+        <div class="q-text">
+          <span>What is 250 ÷ 2</span>
+        </div>
+        <div class="options-list">
+          <label>
+            <div class="option" id="wrong4">
+              <input type="radio" name="q-2" />
+              <span class="option-text">120</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong5">
+              <input type="radio" name="q-2" />
+              <span class="option-text">115</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option"  id="answer2">
+              <input type="radio" name="q-2" id="correct2" />
+              <span class="option-text">125</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong6">
+              <input type="radio" name="q-2" />
+              <span class="option-text">135</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- question 3 -->
+      <div class="question-box">
+        <div class="q-text">
+          <span>How many regions are in Saudi Arabia?</span>
+        </div>
+        <div class="options-list">
+          <label>
+            <div class="option" id="wrong7">
+              <input type="radio" name="q-3" />
+              <span class="option-text">15</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option"  id="answer3">
+              <input type="radio" name="q-3" id="correct3" />
+              <span class="option-text">13</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong8">
+              <input type="radio" name="q-3" />
+              <span class="option-text">11</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong9">
+              <input type="radio" name="q-3" />
+              <span class="option-text">14</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- question 4 -->
+      <div class="question-box">
+        <div class="q-text">
+          <span>Which month is March?</span>
+        </div>
+        <div class="options-list">
+          <label>
+            <div class="option" id="wrong10">
+              <input type="radio" name="q-4" />
+              <span class="option-text">2</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong11">
+              <input type="radio" name="q-4" />
+              <span class="option-text">4</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option"  id="answer4">
+              <input type="radio" name="q-4" id="correct4" />
+              <span class="option-text">3</span>
+            </div>
+          </label>
+
+          <label>
+            <div class="option" id="wrong12">
+              <input type="radio" name="q-4" />
+              <span class="option-text">5</span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <footer>
+          <div class="score">
+              <span id="score-text"></span>
+            </div>
+        <div class="buttons">
+            <!-- <button class="reset">Reset</button> -->
+            <button class="confirm" id="confirmBtn">Confirm</button>
+
+          </div>
+      </footer>
+    </section>
+
+
+    <section class="timeout">
+      <div class="timeout-title">
+        <span class="timout-text">Sorry, Time Has Finished!</span>
+      </div>
+      <a class="timeout-button" href="../index.html">Exit</a>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

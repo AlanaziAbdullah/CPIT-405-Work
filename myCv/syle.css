@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background-color: #fff;
+    color: #d1d1d1;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+/*    font-weight: 100;*/
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.left-section {
+    background-color: #666e84;
+    height: 100vh;
+    width: 30%;
+    overflow: hidden;
+    margin: 0px;
+
+}
+
+.right-section {
+    background-color: #EEE5E5;
+    height: 100vh;
+    width: 70%;
+    float: right;
+    margin: 0px;
+    color: #939393;
+    padding: 50px
+}
+
+
+.pic {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #4b5367;
+}
+
+.pic img {
+    margin-bottom: 15px;
+}
+
+.pic p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.pic hr {
+    margin: 35px auto 0 auto;
+    height: 1px;
+    background-color: #d1d1d1;
+    border: none;
+    
+    width: 300px;
+}
+
+
+/*-------------------------------------------------*/
+
+.contact-info {
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 10px;
+    color: #4b5367;
+    padding-left: 10px;
+    background-color: #EEE5E5;
+}
+
+.contact-info ion-icon {
+    font-size: 25px;
+    margin-bottom: 0;
+    padding: 0;
+    vertical-align: bottom;
+    
+}
+
+.contact-info h3 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.call ion-icon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.last {
+    color: rgba(0, 0, 0, 0.24)
+}
+
+
+/*----------------------------------------------------------------*/
+
+.edu {
+ 
+    margin-top: 30px;
+}
+
+.right-title {
+    color: #4b5367;
+    font-size: 32px;
+    margin-bottom: 20px;
+    border-bottom: 10px 10px red; /**/
+}
+
+.uni {
+    color: #4b5367;
+    font-weight: 600;
+}
+
+.year {
+    font-weight: 100;
+}
+
+.bullet {
+    font-size: 10px;
+    margin-right: 15px;
+}
+
+
+.edu-info {
+    margin-left: 25px;
+}
+
+.right-section hr {
+    margin: 35px auto 0 50px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.15);
+    border: none;
+    width: 600px;
+}
+
+.prog {
+    margin-top: 30px;
+    
+}
+
+.prog h3 {
+    margin-bottom: 10px;
+    font-weight: 100;
+    
+}
+
+.skills {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.skill h3 {
+    vertical-align: bottom;
+}
+
+.skill ion-icon {
+    font-size: 25px;
+    margin: 0 10px 0 0;
+    vertical-align: bottom;
+}
+
+
+
+
+
+
